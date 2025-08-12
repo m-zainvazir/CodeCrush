@@ -8,7 +8,8 @@
 > Real-time FAANG interview simulator powered by **Groq's LPU** (1,000+ tokens/sec) and **Llama3-70B**, with near-zero latency responses.
 
 <div align="center">
-<img src="https://i.ibb.co/SDWvRzYR/Code-Crush-without-side.jpg" alt="Code-Crush-without-side" border="0">
+<img src="src/Code Crush without side" alt="Code-Crush-without-side" border="0">
+<img src="src/Code Crush how" alt="Code Crush how" border="0">
 
 
 ## 🔥 Key Features
