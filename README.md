@@ -44,7 +44,7 @@
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/codecrush.git
+git clone https://github.com/m-zainvazir/codecrush.git
 cd codecrush
 
 # Create virtual environment
