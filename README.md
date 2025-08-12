@@ -7,9 +7,9 @@
 
 > Real-time FAANG interview simulator powered by **Groq's LPU** (1,000+ tokens/sec) and **Llama3-70B**, with near-zero latency responses.
 
-<div align="center">
-<img src="src/Code Crush without side" alt="Code-Crush-without-side" border="0">
-<img src="src/Code Crush how" alt="Code Crush how" border="0">
+
+<img src="src/Code Crush without side.jpg" alt="Code-Crush-without-side" border="0">
+<img src="src/Code Crush how.jpg" alt="Code Crush how" border="0">
 
 
 ## 🔥 Key Features
@@ -28,5 +28,53 @@
 | **Framework** | LangChain (prompt + memory)             |
 | **Interface** | Streamlit (Community Cloud)             |
 | **Security**  | `.env` / `secrets.toml` for key storage |
+ 
+
+## 📈 Impact  
+
+- **Solved key pain points** in interview prep:  
+  - Slow response times in local/offline models  
+  - Static, non-adaptive questions  
+  - Lack of real-time feedback  
+- **Created a realistic simulation** of FAANG interview experience without GPU setup.  
 
 
+
+## 🔧 Installation  
+
+```bash
+# Clone the repository
+git clone https://github.com/your-username/codecrush.git
+cd codecrush
+
+# Create virtual environment
+conda create -n codecrush python=3.10
+conda activate codecrush
+
+# Install dependencies
+pip install -r requirements.txt
+```
+
+
+## ▶️ Usage  
+
+```bash
+streamlit run app.py
+```
+
+Make sure to set your **Groq API key** in `.streamlit/secrets.toml`:  
+
+```toml
+GROQ_API_KEY = "your_api_key_here"
+```
+
+
+
+## 🤝 Contributing  
+
+Pull requests are welcome! For major changes, please open an issue first to discuss what you’d like to change.  
+
+
+## 📜 License  
+
+This project is licensed under the MIT License.  
