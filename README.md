@@ -48,7 +48,7 @@ git clone https://github.com/m-zainvazir/codecrush.git
 cd codecrush
 
 # Create virtual environment
-conda create -n codecrush python=3.10
+conda create -n codecrush python=3.12
 conda activate codecrush
 
 # Install dependencies
