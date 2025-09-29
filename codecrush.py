@@ -102,7 +102,7 @@ if prompt:
         with st.spinner("Thinking..."):
             try:
                 llm = ChatGroq(
-                    model="llama3-70b-8192",  # Still free (via Groq)
+                    model="llama-3.1-8b-instant",  # Still free (via Groq)
                     temperature=1.5,
                     api_key=st.secrets["GROQ_API_KEY"]
                 )
